@@ -1,0 +1,14 @@
+.input_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  text-align: center;
+}
+
+.input {
+  background: linear-gradient(45deg, #00000022, #66666622);
+  color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 3px;
+}

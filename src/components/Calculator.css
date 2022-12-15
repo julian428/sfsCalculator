@@ -1,0 +1,36 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.result {
+  padding: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.result > * {
+  margin: 0.5rem;
+}
+
+.result > button {
+  background: linear-gradient(45deg, #00000022, #66666622);
+  border: 2px black solid;
+  border-radius: 10px;
+}
+
+.calculator-wrapper {
+  width: calc(100vw - 2rem);
+  height: fit-content;
+  background: linear-gradient(45deg, #00000022, #66666622);
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
